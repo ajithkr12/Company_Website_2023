@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter,Routes,Route,} from "react-router-dom";
+import NavBar from './componets/NavBar'
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import BlogGrid from './pages/BlogGrid';
 
+import BlogSingle from './pages/BlogSingle';
+import ScrollTop from './componets/ScrollTop'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <NavBar/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blogs" element={<BlogGrid />} />
+        <Route path="/blog" element={<BlogSingle/>} />
+      </Routes>
+      <ScrollTop/>
+    </BrowserRouter>
+    
   );
 }
 
