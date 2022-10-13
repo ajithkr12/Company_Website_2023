@@ -36,6 +36,15 @@ export const TeamData =[
       "image": "assets/images/team/team4.png",
     },
     {
+      "name": "Vignesh S N",
+      "position": "Co-founder",
+      "fb": "https://www.google.com/",
+      "ig": "https://www.google.com/",
+      "tw": "https://www.google.com/",
+      "li": "https://www.google.com/",
+      "image": "assets/images/team/team5.png",
+    },
+    {
       "name": "Sumi Marry Shibu",
       "position": "Co-founder",
       "fb": "https://www.google.com/",
