@@ -25,13 +25,13 @@ const BlogSingle = () =>  {
                                     
                                     <ul className="meta-info">
                                         <li>
-                                            <a href="javascript:void(0)">By Martin King</a>
+                                            <a href="">By Martin King</a>
                                         </li>
                                         <li>
-                                            <a href="javascript:void(0)">20 Jun 2022</a>
+                                            <a href="">20 Jun 2022</a>
                                         </li>
                                         <li>
-                                            <a href="javascript:void(0)">Technology</a>
+                                            <a href="">Technology</a>
                                         </li>
                                     </ul>
                                     
