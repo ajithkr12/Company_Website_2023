@@ -13,7 +13,7 @@ const BlogSingle = () =>  {
       <section className="section blog-single">
         <div className="container">
             <div className="row abc">
-                <div className="col-lg-10 col-md-12 col-12">
+                <div className="col-lg-10 col-md-11 col-11">
                     <div className="single-inner">
                         <div className="post-details">
                             <div className="main-content-head">
