@@ -6,7 +6,9 @@ import Contact from './pages/Contact';
 import BlogGrid from './pages/BlogGrid';
 
 import BlogSingle from './pages/BlogSingle';
-import ScrollTop from './componets/ScrollTop'
+import ScrollTop from './componets/ScrollTop';
+import PageNotFound from './pages/PageNotFound';
+
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +19,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blogs" element={<BlogGrid />} />
         <Route path="/blog" element={<BlogSingle/>} />
+        <Route path="*" element={<PageNotFound/>} />
       </Routes>
       <ScrollTop/>
     </BrowserRouter>
