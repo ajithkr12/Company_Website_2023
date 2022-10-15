@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi';
-
+import Logo from '../images/logo/logo.png';
 const NavBar = () =>  {
  
 	const [open, setOpen] = useState(false);
@@ -17,7 +17,7 @@ const NavBar = () =>  {
 	return (
 		<nav className="navbar">
 			<Link to="/" className="nav-logo">
-                <img src="assets/images/logo/logo.png" alt="Logo"/>
+                <img src={Logo} alt="Logo"/>
 			</Link>
 			<div onClick={handleClick} className="nav-icon">
 				{open ? <FiX /> : <FiMenu />}
@@ -45,9 +45,5 @@ const NavBar = () =>  {
 				</li>
 			</ul>
 		</nav>
-	
-
-  );}
-
-
+  	);}
 export default NavBar;

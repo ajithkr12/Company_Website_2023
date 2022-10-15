@@ -2,9 +2,7 @@
 import React from 'react';
 
 const ScreenHeading = (props) =>  {
-
   return (
- 
     <div className="row">
         <div className="col-12">
             <div className="section-title">
@@ -14,8 +12,5 @@ const ScreenHeading = (props) =>  {
             </div>
         </div>
     </div>
-    
   );}
-
-
 export default ScreenHeading;

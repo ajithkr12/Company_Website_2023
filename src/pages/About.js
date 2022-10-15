@@ -15,7 +15,7 @@ const About = () =>  {
   return (
     <div className="">
 
-        <Breadcrumbs tittle='About Us'/>
+        <Breadcrumbs tittle='About Us' page='About'/>
         <AboutUs/>
         <Mission/>
         <Team/>

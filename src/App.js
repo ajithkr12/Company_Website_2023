@@ -18,7 +18,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blogs" element={<BlogGrid />} />
-        <Route path="/blog" element={<BlogSingle/>} />
+        <Route path="/blog/:id" element={<BlogSingle/>} />
         <Route path="*" element={<PageNotFound/>} />
       </Routes>
       <ScrollTop/>

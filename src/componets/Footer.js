@@ -1,10 +1,10 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-const Footer = () =>  {
+import Logo from '../images/logo/white-logo.png';
 
+const Footer = () =>  {
   return (
- 
     <footer className="footer section">
         <div className="footer-top">
             <div className="container">
@@ -14,7 +14,7 @@ const Footer = () =>  {
                             <div className="single-footer f-about">
                                 <div className="logo">
                                     <Link to="/">
-                                        <img src="assets/images/logo/white-logo.png" alt="#"/>
+                                        <img src={Logo}alt="#"/>
                                     </Link>
                                 </div>
                                 <p>Making the world a better place through constructing elegant hierarchies.</p>
@@ -61,18 +61,16 @@ const Footer = () =>  {
                                 <form action="#" method="get" target="_blank" className="newsletter-form">
                                     <input name="EMAIL" placeholder="Email address" required="required" type="email"/>
                                     <div className="button">
-                                        <button class="sub-btn"><i className="bi bi-envelope"></i>
+                                        <button className="sub-btn"><i className="bi bi-envelope"></i>
                                         </button>
                                     </div>
                                 </form>
-                            </div>
-                            
+                            </div>   
                         </div>
                     </div>
                 </div>
             </div>
         </div>
- 
         <div className="copyright-area">
             <div className="container">
                 <div className="inner-content">
@@ -88,8 +86,5 @@ const Footer = () =>  {
             </div>
         </div>
     </footer>
-
   );}
-
-
 export default Footer;

@@ -1,5 +1,7 @@
 
 import React from 'react';
+import { Carousel } from 'react-responsive-carousel';
+
 import TestimonialCard from '../componets/TestimonialCard';
 import ScreenHeading from '../componets/ScreenHeading';
 import {TestData} from "../data/Data";
@@ -13,12 +15,14 @@ const Testimonials = () =>  {
             <ScreenHeading sTittle='Customer Reviews' bTittle='Our Testimonials' description='There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'/>
 
             <div className="row testimonial-slider">
+            
               {
                 TestData.map((data) => {
                   return (
                     <TestimonialCard data={data}/>
                   )})
               }
+              
             </div>
         </div>
     </section>

@@ -1,8 +1,7 @@
 
 import React from 'react';
-import BlogCard from '../componets/BlogCard';
-import ScreenHeading from '../componets/ScreenHeading';
 
+import About from '../images/about/about-image.png';
 const AboutUs = () =>  {
 
   return (
@@ -12,7 +11,7 @@ const AboutUs = () =>  {
             <div className="row align-items-center">
                 <div className="col-lg-6 col-12">
                     <div className="image">
-                        <img src="assets/images/about/about-image.png" alt="#"/>
+                        <img src={About} alt="#"/>
                     </div>
                 </div>
                 <div className="col-lg-6 col-12">

@@ -9,7 +9,7 @@ const Contact = () =>  {
   return (
     <div className="">
 
-        <Breadcrumbs tittle='Contact'/>
+        <Breadcrumbs tittle='Contact Us' page='Contact'/>
         <ContactUs/>
         <LocationMap/>
         <Footer/>

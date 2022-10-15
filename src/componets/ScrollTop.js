@@ -13,26 +13,24 @@ const ScrollTop = () =>  {
             setShowTopBtn(false);
         }
     });
-}, []);
+  }, []);
 
-const goToTop = () => {
-  window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-  });
-};
+  const goToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    });
+  };
 
   return (
     <div>
     {" "}
         {showTopBtn && (
             <div className="scroll-top">
-              <i class="bi bi-chevron-up" onClick={goToTop}></i>
+              <i className="bi bi-chevron-up" onClick={goToTop}></i>
             </div>
         )}
-        {" "}
+    {" "}
     </div>
   );}
-  
-
 export default ScrollTop;
