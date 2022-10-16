@@ -16,6 +16,7 @@ const Testimonials = () =>  {
     slidesToShow: 3,
     slidesToScroll: 3,
     initialSlide: 0,
+    arrows: false,
     responsive: [
       {
         breakpoint: 1024,

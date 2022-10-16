@@ -2176,4 +2176,11 @@ blockquote span {
   width: 100%;
 }
 
-
+.slick-dots li  {
+  color:rgb(0, 0, 0) !important;
+ }
+.slick-dots li.slick-active button:before {
+  color:rgb(15, 162, 199) !important;
+  
+  
+ }
