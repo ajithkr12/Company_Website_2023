@@ -100,6 +100,7 @@ const BlogSingle = (props) =>  {
                                         
                                     </blockquote>
                                     <p>{results.p3}</p>
+                                    <div dangerouslySetInnerHTML={ {__html:results.htmlData} } />
                                 </div>
                             </div>
                         </div>

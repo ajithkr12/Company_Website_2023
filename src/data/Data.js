@@ -160,5 +160,23 @@ export const TeamData =[
       "position": "Founder",
       "image": Testimonial1,
     },
+    {
+      "name": "Gautam Shantilal Adani",
+      "quotes": "“A vast number of clients decide to create dedicated software is the online store. It is nothing but a website with a catalog of products and the possibility.”",
+      "position": "Founder",
+      "image": Testimonial1,
+    },
+    {
+      "name": "Gautam Shantilal Adani",
+      "quotes": "“A vast number of clients decide to create dedicated software is the online store. It is nothing but a website with a catalog of products and the possibility.”",
+      "position": "Founder",
+      "image": Testimonial1,
+    },
+    {
+      "name": "Gautam Shantilal Adani",
+      "quotes": "“A vast number of clients decide to create dedicated software is the online store. It is nothing but a website with a catalog of products and the possibility.”",
+      "position": "Founder",
+      "image": Testimonial1,
+    }
 
   ]
