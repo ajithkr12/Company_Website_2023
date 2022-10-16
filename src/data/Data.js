@@ -18,7 +18,8 @@ import Feature5 from '../images/features/feature-icon-1.png';
 import Feature6 from '../images/features/feature-icon-2.png';
 
 import Testimonial1 from '../images/testimonial/testi-1.png';
-
+import Testimonial2 from '../images/testimonial/testi-2.png';
+import Testimonial3 from '../images/testimonial/testi-3.png';
 
 
 export const TeamData =[
@@ -143,22 +144,22 @@ export const TeamData =[
   ]
   export const TestData =[
     {
-      "name": "Gautam Shantilal Adani",
+      "name": "Gautam Adani",
       "quotes": "“A vast number of clients decide to create dedicated software is the online store. It is nothing but a website with a catalog of products and the possibility.”",
-      "position": "Founder",
+      "position": "Founder-Adani Group",
       "image": Testimonial1,
     },
     {
-      "name": "Gautam Shantilal Adani",
+      "name": "Ratan Naval Tata",
       "quotes": "“A vast number of clients decide to create dedicated software is the online store. It is nothing but a website with a catalog of products and the possibility.”",
-      "position": "Founder",
-      "image": Testimonial1,
+      "position": "Chairman-Tata Group",
+      "image": Testimonial2,
     },
     {
-      "name": "Gautam Shantilal Adani",
+      "name": "Mukesh Ambani",
       "quotes": "“A vast number of clients decide to create dedicated software is the online store. It is nothing but a website with a catalog of products and the possibility.”",
-      "position": "Founder",
-      "image": Testimonial1,
+      "position": "Chairman-Reliance",
+      "image": Testimonial3,
     },
     {
       "name": "Gautam Shantilal Adani",
