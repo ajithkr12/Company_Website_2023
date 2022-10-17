@@ -2175,7 +2175,9 @@ blockquote span {
 .error-page .btn:hover:before {
   width: 100%;
 }
-
+/*======================================
+    14. responsive carousel CSS
+========================================*/
 .slick-dots li  {
   color:rgb(0, 0, 0) !important;
  }
@@ -2184,3 +2186,14 @@ blockquote span {
   
   
  }
+/*======================================
+    15. animation.css
+========================================*/
+ .animate__animated.animate__fadeInLeft {
+ 
+  --animate-delay: 0.8s;
+}
+.animate__animated.animate__fadeInRight {
+ 
+  --animate-delay: 0.8s;
+}

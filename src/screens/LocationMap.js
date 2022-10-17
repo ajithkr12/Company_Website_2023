@@ -1,7 +1,4 @@
-
 import React from 'react';
-import BlogCard from '../componets/BlogCard';
-import ScreenHeading from '../componets/ScreenHeading';
 
 const LocationMap = () =>  {
 

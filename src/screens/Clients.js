@@ -1,7 +1,5 @@
 
 import React from 'react';
-import BlogCard from '../componets/BlogCard';
-import ScreenHeading from '../componets/ScreenHeading';
 
 import ClientLogo1 from '../images/client-logo/google-logo.png';
 import ClientLogo2 from '../images/client-logo/adani-logo.png';

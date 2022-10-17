@@ -46,7 +46,7 @@ const Testimonials = () =>  {
   };
   return (
  
-    <section className="testimonials style2 section">
+    <section className="testimonials style2 section animate__animated animate__fadeInRight">
         <div className="container">
             <ScreenHeading sTittle='Customer Reviews' bTittle='Our Testimonials' description='There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'/>
             <Slider {...settings}>
