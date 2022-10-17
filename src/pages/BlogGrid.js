@@ -58,15 +58,18 @@ const BlogGrid = () =>  {
         <Breadcrumbs tittle='Blogs' page='Blogs'/>
         <section class="section blog-grid-page">
             <div class="container">
+            {
+              resultp.length > 0 &&
                 <div class="row">
 
-                {Object.values(resultp).map((data,index) => {
-                    return (
-                      <BlogCard data={data} index={index}/>
-                    );
-                })}
-
+                  {Object.values(resultp).map((data,index) => {
+                      return (
+                        <BlogCard data={data} index={index}/>
+                      );
+                  })}
+                
                 </div>
+            }
             </div>
         </section>
         <Footer/>

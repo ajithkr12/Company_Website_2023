@@ -1,6 +1,6 @@
 import axios from "axios";
-import React from "react";
-// const API_URL = "http://localhost:3333/blogs/";
+
+// const API_URL = "http://localhost:3333/";
 const API_URL = "https://my-json-server.typicode.com/ajithkr12/fakeApi/blogs/";
 
 export const GetAllData=async ( )=>{
