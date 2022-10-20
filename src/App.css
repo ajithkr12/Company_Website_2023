@@ -1,3 +1,6 @@
+@import "index.css";
+
+
 /* ===========================
 Index Of css
 
@@ -19,6 +22,9 @@ Index Of css
 /*======================================
 	01. Start NavBar CSS
 ========================================*/
+.navarea{
+
+}
 .navbar {
 	height: 90px;
 	width: 100%;
@@ -30,8 +36,9 @@ Index Of css
 	padding: 0 2rem;
 	font-size: 1.2rem;
   position: fixed;
-  z-index: 1000;
-  
+  z-index: 1000; 
+  border-radius: 0px 0px 10px 10px;
+
 }
 
 .nav-logo img{
@@ -1602,7 +1609,9 @@ blockquote span {
   margin-bottom: 30px;
   margin-bottom: 30px;
 }
-
+.red{
+  color: #a30505;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .contact-us .form-title {
     font-size: 24px;

@@ -1,7 +1,13 @@
 /*======================================
     Variables
 ========================================*/
-
+:root {
+  --color1: brown;
+  --color2: brown;
+  --color3: brown;
+  --color4: brown;
+  --color5: brown;
+}
 
 /*======================================
     Normalize CSS
